@@ -1,0 +1,86 @@
+Computer Programming 
+
+Java program - basic structure 
+
+datatype, variables, values 
+
+conditional statment 
+
+looping 
+
+data structure - array 
+
+functions /method 
+
+computer program: 
+java 
+to give computer instruction to do something 
+
+basic unit of java programming lanugage 
+
+Class 
+
+run - main method of java - starting point of running any code
+
+non-runnable  - no main method 
+
+how to store data? 
+
+number, name, address, ssn, email 
+
+datatype that we can use 
+
+10 
+
+datatype variable = value; 
+
+65000
+int x = 1233 ; 
+
+String x = 1233
+
+we are storing 10 in a variable names x where x is a integer
+type of variable 
+
+
+
+int 
+
+String 
+
+boolean 
+
+double 
+
+char 
+
+int a = 
+String name
+boolean z 
+double 
+1234
+
+45748957
+
+add subtract multiply
+datatype variablename = value; 
+
+if we want that lines of code should be executed depdning on
+some condition that we use conditoinal statment 
+
+if/else/else if
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
