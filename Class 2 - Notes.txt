@@ -69,6 +69,21 @@ if we want that lines of code should be executed depdning on
 some condition that we use conditoinal statment 
 
 if/else/else if
+Class will start 12:45 PM 
+
+https://github.com/battlestar99/automation-agile-october
+
+Problem Statement: 
+
+Write a program to calculate the montly payment for buying
+a car
+
+your program should consider the car's base price, down
+payment, admin fee, apr, tax and calculate the 
+monthly payment
+
+100 + (100X3/100)
+
 
 
 
