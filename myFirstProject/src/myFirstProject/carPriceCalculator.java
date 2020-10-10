@@ -25,7 +25,7 @@ public class carPriceCalculator {
 		
 		double totalCarprice= baseCarPrice+adminFee+warrentyAmount; 
 		
-		double totalrCarpriceWithTax=totalCarprice+totalCarprice*(taxrate/100);
+		double totalrCarpriceWithTax=totalCarprice +totalCarprice*(taxrate/100);
 		
 		
 		double carPrice = totalrCarpriceWithTax-downPayment;

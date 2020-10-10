@@ -1,0 +1,157 @@
+Last week Discussion 
+
+class - 
+main method of java - starting point of any programs, 
+runnable class
+
+syntax - 
+; 
+class, methods,conidtional {} - scope 
+case sensitive - a A 
+
+aa
+AA
+
+int 
+boolean
+if
+
+datatype variablename = variablevalue; 
+
+initialization 
+
+numberOne
+
+int x; 
+
+double y; 
+
+String name; 
+
+x=10.10
+y=123.45
+
+int x; 
+
+x=12;
+
+x=50;
+
+String
+boolean
+
+double 
+
+int x = 12;
+
+int x; 
+int x;
+x=23;
+
+int y
+
+conditional statement - 
+
+if(condition){
+
+
+}
+
+Scope - 
+java class - { }
+methods/function - {// all code goes here }
+conditional statment - {}
+looping - {}
+
+String name = "Michael";
+
+name = "Mike";
+
+Arrary - 
+
+int x[]= new int[10];
+
+String name[] = new String[5];
+
+boolean flag[] = new boolean[9];
+
+int x = 10;
+
+
+basic structur of java code 
+datatype variable value - arrary
+coniditional statement 
+looping 
+functions - most important topic of the whole class 
+
+contineously executing some lines of code = 100 times
+2000 times 
+
+for loop
+while loop 
+
+post increament/pre increament
+post decrement/pre decreament
+
+x++
+++x
+x--
+--x 
+
+
+
+Functions/Method 
+
+main method of java/main function of java 
+
+
+1. how to create a function - own
+2. how to use a function - created by us
+3. how to use a third party function - created by other people
+
+
+Function - block of code 
+
+5/6 lines of codes - 1 line of code/100 lines of code 
+
+Reusable - put it in a function 
+
+pre-written code to use 
+
+how to use a function: 
+
+1. need to know the class from where the function comes
+2. need to create an object of that class
+3. call the function using the object 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
