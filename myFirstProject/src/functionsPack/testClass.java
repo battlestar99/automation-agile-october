@@ -3,21 +3,33 @@ package functionsPack;
 public class testClass {
 	
 	
-	
-	// public int name(inputs of the functions){}
+	// global variables are also called properties of the class
+	int x;
 	
 	
 	public int sampleFunction() {
 		
+		x=123;
 	System.out.println("This is sample function");
-		return 10;
+		return 101;
+	}
+	
+	public int sampleFunction(int c) {
+		int x=12;
+		int sum;
+		
+		sum=this.x;
+		return 101;
 	}
 	
 	
-	public int addTwoNumbers(int x,int y) {
+	public  int addTwoNumbers(int x,int y) {
 		
 		int sum = x+y; 
-		System.out.println(sum);
+		
+		int x1; 
+		
+		//System.out.println(sum);
 		
 		return sum; 
 		
@@ -35,6 +47,13 @@ public class testClass {
 		System.out.println(name);
 		
 	   return "vczxv";
+		
+	}
+	
+	
+	public static void go() {
+		
+		
 		
 	}
 	

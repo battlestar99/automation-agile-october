@@ -1,0 +1,164 @@
+Method/Functions - 
+
+input
+output
+system 
+
+
+return 
+package - its a java folder
+
+local variable 
+global variables 
+
+static 
+
+library and functions
+
+selenium setup 
+Functions/Method 
+
+main method / main function
+public static void main - java application - runnable class
+
+non-runnable class - functions - storage of functions 
+
+1. how to create a function 
+
+public outputdatatype functionName(inputs){
+
+return outputdata;
+}
+
+prob 1: create a function that will take credit score as input
+provide apr as output 
+
+public double getCreditScore(int creditScore){
+
+// how the functions take credit score as input and provide
+the apr by calculating 
+
+
+return doubledata;
+
+}
+
+output - 1
+input - multiple 
+
+prob 2: create a function that will send you the nearby location
+of walmart 
+
+public String getClosestnWalmart(String streetradress, String state, String zipcode)
+
+{
+
+// calculation
+
+return "address"
+
+
+}
+
+public void gettheworkdone(){
+
+}
+
+return type - output
+parameters - input 
+function definition  
+
+using the functions - to create an object of the class 
+
+classanme objectname=new classname();
+
+getTitle - will return string 
+
+expected - requirments 
+actual ttile - function is returning
+
+get("www.google.com")
+
+functions - creation 
+functions - calling a function - object - classname, input, output
+
+can we create one function inside another function
+
+recursive functions 
+
+importing funtioncs not - importing class and package 
+
+functions are part of class 
+
+testclass - addtwonumbers, samplefunction, samplefunction1
+printname 
+
+import testclass
+
+testclass tc=new testclass();
+
+non - runnable class - 
+
+functions 
+properties 
+
+class and objects are two different things 
+
+getText
+
+method overloading 
+
+local variables and global variables 
+
+creating and using a functions 
+packages
+static 
+method overloading
+
+local and global variables
+libraries - how to setup libraries 
+
+43743
+34343434
+
+anik@agile1tech.com 
+
+Thursday - 2PM - 4PM 
+
+log some defects 
+
+local and global variables
+libraries - how to setup libraries 
+
+int x; 
+String name;
+
+double z;
+
+inside a method - main method/ regular function 
+local variable - variables inside any function
+global variable - variable outside of functions - this keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,8 @@ public class carPriceCalculator {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
+		
 		double taxrate = 3; 
 		System.out.println("Enter the base car price");
 		double baseCarPrice = sc.nextDouble();
