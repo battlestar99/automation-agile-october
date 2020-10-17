@@ -15,13 +15,17 @@ public class testRun {
 		
 		driver.get("https://www.progressivecommercial.com/");
 		
+		WebDriver xy = new ChromeDriver();	
 		
-		String x = driver.getTitle();
+		
+		
+		
+		String title = driver.getTitle();
 		String y = driver.getCurrentUrl();
 		
 		driver.quit();
 		
-		System.out.println(x);
+		System.out.println(title);
 		System.out.println(y);
 		
 		
