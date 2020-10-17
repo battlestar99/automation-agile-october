@@ -15,7 +15,7 @@ public class testClass {
 	}
 	
 	public int sampleFunction(int c) {
-		int x=12;
+		//int x=12;
 		int sum;
 		
 		sum=this.x;

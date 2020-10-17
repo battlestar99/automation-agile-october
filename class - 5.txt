@@ -1,0 +1,88 @@
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+
+What to test? >>>>>> requirements 
+web-based application - front-end > functional testing
+functional reqs> FRD, FSD 
+10 new user stories - 
+
+user story 1: chat participant should be able to send m oney
+through the chat application, that could be recived by paypal
+venmo, or any bank accounts 
+
+
+user story 2: there should be a new page for money transfer
+navigating to the url facebook.com/moneytransfer and 
+title of the page should be money transfer 
+
+write test case - 
+
+to validate requirements - no defect 
+
+1- any amount of test case 
+
+8-10 steps 
+
+
+version 11 - after 3 months 
+version 12 
+
+
+10 test cases - 2 test cases 
+
+12 new test cases - manually 
+
+25 new test
+
+why I need to automate the test case? 
+
+
+500 test cases + 12 > 512 test cases automation testing  
+
+512 + 25 > 537 
+
+1. new features are added 
+2. old features can be modified/ deleted  
+3. bug fixed 
+
+question is > what part of application> functional 
+and non-functional
+How to test? >>>>>>> manual/Automation
+
+
+
+setting up the selenium? 
+
+jdk / eclipse 
+
+1. selenium jar files / selenium libraries - java libraries 
+2. browser driver - google chrome, mozila, IE
+
+
+how to use a function?  class1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
