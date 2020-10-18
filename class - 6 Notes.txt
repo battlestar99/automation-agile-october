@@ -1,0 +1,115 @@
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+Functions - how to use functions from library 
+
+block of code - that can do something 
+
+get(www.google.com)
+
+libraries - functions are alrady created - non-runnble class
+
+selenium libraries -  jar file- webdriver, chromedriver, 
+weblement, select, action - non runnable classes - packages
+ many many functions 
+
+class obj = new class(); 
+
+driver.get("dsfsad");
+
+driver.getTitle 
+
+WebElement > 
+
+finding the web elements 
+how to use - what to do with the webelements 
+
+web elements - the elements of the web page that user 
+can interact with 
+
+text box - type something - clear
+link - click on a link 
+button - click on a button
+drop down menu - select some predefined value 
+radio button - you can click there
+check box - click on the check box 
+
+WebElement 
+
+HTML and CSS - hypertext markup language 
+css - cascading style sheet 
+
+first Name text box 
+
+tag name, attribute and value 
+
+
+
+<input type="text" id="usernamereg-firstName" 
+class="ureg-fname input-with-icon icon-name " 
+autocomplete="given-name" name="firstName" 
+placeholder="First&nbsp;name" 
+aria-label="First&nbsp;name" value="" 
+maxlength="32" aria-required="true" aria-invalid="false">
+
+
+code for lastname text box 
+
+<input type="text" id="usernamereg-lastName" 
+class="ureg-lname " name="lastName" 
+autocomplete="family-name" placeholder=
+"Last&nbsp;name" aria-label="Last&nbsp;name" 
+value="" maxlength="32" aria-required="true" 
+aria-invalid="false">
+
+drop down country code 
+
+selenium does support some attribute and value 
+
+id
+name
+xpath
+css selector 
+
+linktext - link of a page  
+partial link text - link of a page 
+class - multiple web elements at once 
+tag -  multiple web elements at once 
+
+text box - input
+links - a 
+button - button 
+drop down - select 
+
+validating web element
+
+is visible in the page - displayed
+is enabled in the page - 
+is something is selected - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

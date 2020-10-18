@@ -65,10 +65,29 @@ jdk / eclipse
 
 how to use a function?  class1 
 
+class1 obj = new class1(); 
+
+if you google chrome browser version is 83 
+your chromedriver version has to be 83 
+1. interacting with the browser - 
 
 
 
+Test case : 
 
+1. navigating to an url 
+2. click on the autologin link
+3. enter user id 
+4. enter password
+5. enter the login button
+6. user should be in the login page 
+
+
+call a function 
+
+1. know what you need give as input for the function
+2. how the function works - we have no business 
+3. if the functions give us output - we need to store it and use it 
 
 
 
