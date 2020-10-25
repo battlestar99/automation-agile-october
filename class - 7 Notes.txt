@@ -1,0 +1,263 @@
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+webelements effecitve way - 
+
+locating tecniques - 
+type of frameworks - data driven and object driven 
+page object models - constructor 
+
+why and how - 
+
+Reviews - 
+
+functions 
+selenium libraries - functions 
+
+jdk - java core library is available when we create any java project 
+3rd party library - API - library of java means a jar file or multiple jar files 
+
+
+step 1: finding the web elements using appropriate locating techniques 
+attributes and value 
+
+webelement variable - we can store the weblement 
+
+any type of webelement
+id
+name
+xpath - relative and absolute 
+create our own xpath - modified xpath 
+css selector
+
+anchor type weblement - a 
+linktext
+partiallinktext
+
+
+multiple web elements at once 
+classname
+tagname 
+
+
+
+
+
+
+
+
+
+step 2: do action on web elements 
+text box > type
+button > click 
+drop down > select 
+radio button> click 
+
+
+first name text box HTML/CSS code
+
+<input type="text" id="usernamereg-firstName" class="ureg-fname input-with-icon icon-name " 
+autocomplete="given-name" name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name"
+ value="" maxlength="32" aria-required="true", webvalue="1">
+
+
+there is not unique id - unique name - 
+
+findelement(by.id("abc")
+
+findelement(by.id("abc")
+
+
+xpath - relative xpath and absolute xpath 
+
+relative xpath - attribute and value of the webelements - we can have multiple xpath
+
+//tagname[@attribute='value']
+
+//*[@id="usernamereg-firstName"]
+
+//*[@name="firstName"]
+
+//*[@webvalue="1"]
+
+
+css selector
+
+tagname[attribute='value']
+input[name='firstname']
+> converted to xpath
+//input[@name='firstname']
+
+how many xpath we can create for any web element? 
+
+
+
+
+
+
+
+absolute xpath - using the css location of the web elements  
+
+
+/html/body/div[2]/div[2]/div[1]/div/form/fieldset/div/div[1]/input
+
+
+not recommended - if the location of the web element is changed- the absolute
+xpath will change 
+
+
+what should be your first choice? 
+id/name/xpath
+customized xpath - css selector 
+absolute xpath 
+
+linktext
+partial linktext - if linktext is too long that you can use that 
+
+links/hyperlinks/web elements start with anchor(a) tag 
+
+1. what is your sequecne of choice to find weblements? 
+2. you have no unique id or name - customize xpath, absolute xpath
+3. difference between // and / - relative xpath , absolute xpath
+4. to find links use linktext and partial link text 
+5. chrome developer tools 
+6. how do you know some locatin tecnique is unique in the page - chrome developer 
+tool we can search by cntl+f to see if there is any repeition 
+
+in which page your driver is right now - 
+
+5 different test cases > 5 different test scripts  > 5 different classes 
+
+we need to find the web element 5 times in 5 different classes 
+id = value changed 
+
+10 webelements = 60 different places 
+
+Create frameworks - testing framework 
+
+Test scripts ( we can have multipe test case or one)  > automated version of test case
+test script - java class > main method, TestNG, Cucumber \
+
+web elements/web objects, test data, non-test data 
+
+framework - seperating changing compoenents of test scripts from the test scripts 
+test data
+web elements 
+non-test data  
+
+object driven
+
+data driven 
+
+keyword driven 
+
+hybrid 
+
+page object model class - 
+
+each web element - we need to create one function to find the web element
+
+Structure of the page object model - 
+
+ideally - 
+
+for one page - you should have one page object model class 
+
+10 pages - 10 page object model classes
+
+one web page - 100 web elements - 100 functions 
+another web page - 5 web elements - 5 functions 
+
+1 web page - 1 page object model class 
+
+non runnable class created by the automation tester that will have the functions to find 
+web elements 
+
+
+constructor 
+
+
+
+design a class or prototype - infinite amount of users 
+facebook appliction - 1 billion users 
+
+properties that users have 
+usrname
+password
+emailaddress
+firstname
+lastname
+
+
+functions that users are using
+post
+share
+chat
+sendmoney
+search
+bankofamerica
+
+properties
+
+functions 
+
+procedural - storage of functions 
+
+oop - prototype of design 
+
+constructor - automatically gets executed whenever we create 
+an object of the class
+
+public private protected 
+no modifier> protected  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

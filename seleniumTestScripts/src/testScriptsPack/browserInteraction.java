@@ -11,8 +11,12 @@ public class browserInteraction {
      System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\libraries\\chromedriver.exe");
 		
 		// creating an object of the webdriver/chromedriver so we can use the functions 
-		WebDriver driver = new ChromeDriver();	
 		
+     WebDriver driver = new ChromeDriver();	
+     WebDriver driver1 = new ChromeDriver();	
+     
+     // constructor 
+     
 	//	driver.get("https://www.progressivecommercial.com/");
 		
 		driver.navigate().to("https://www.progressivecommercial.com/");
@@ -49,7 +53,7 @@ public class browserInteraction {
 		
 		
 		
-		driver.close();
+		driver.quit();
 
 	}
 

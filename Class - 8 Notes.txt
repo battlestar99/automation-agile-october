@@ -1,0 +1,76 @@
+locating tecniques 
+
+java oop - class, object - oop side 
+frameworks - object driven framework - page object model 
+
+TestNG - 
+
+Constructor - 
+
+
+function - input data, system, output - executes when called
+construction - input, system - when an object is created 
+
+test 
+
+test t = new test(); 
+
+if we want to setup any initial value for any properties of the object
+we need to create an constructor to setup the value 
+
+facebook - username, password
+bankaccount - ssn, email address 
+twitter - email 
+dmv - vin number, address 
+
+objects - users of the system 
+
+1. constructor exectues with the object creation
+2. its not mandatory 
+3. no output 
+
+public classname(){
+
+}
+
+So this are tecniques 
+
+problem / requirement 
+
+main method - starting point of our code 
+
+object in the world - 
+action
+properties 
+
+funtion - how to create and how to use
+constructor - how to create and how to use 
+
+Page Object model - 
+
+object is created from the class - class has function and properties
+when the object is created - the object is actually a copy of the class
+
+whenever the object is created - you want to do something 
+
+page object model - non-runnable class - store all the functions to find 
+web elements 
+
+why we need page object model? - non runnable class - some functions
+
+
+each web element - one function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
