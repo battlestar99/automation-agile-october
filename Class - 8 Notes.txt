@@ -61,6 +61,20 @@ why we need page object model? - non runnable class - some functions
 
 each web element - one function
 
+object driven framework - seperating web elements from test scripts 
+for each web page we should have one page object model class
+
+
+public webelement getfirstName(){
+
+
+}
+
+constructor in page object model class is required to make sure
+we use the same driver in test scripts and in page object model class
+
+
+
 
 
 

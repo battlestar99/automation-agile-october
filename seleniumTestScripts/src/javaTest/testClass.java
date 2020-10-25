@@ -5,9 +5,10 @@ public class testClass {
 	
 	int x; 
 	
-	public testClass(int y) {
+	public testClass(int x) {
 		
-		x=y;
+		this.x=x;
+		
 		System.out.println(x);
 		
 	}

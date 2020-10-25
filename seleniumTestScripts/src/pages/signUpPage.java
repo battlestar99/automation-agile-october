@@ -8,6 +8,7 @@ public class signUpPage {
 	
 	WebDriver driver;
 	
+	
 	public signUpPage(WebDriver driver) {
 		
 		this.driver=driver;
