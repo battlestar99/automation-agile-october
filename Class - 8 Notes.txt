@@ -73,6 +73,36 @@ public webelement getfirstName(){
 constructor in page object model class is required to make sure
 we use the same driver in test scripts and in page object model class
 
+x=3
+y=4 
+
+x=y
+
+Setting up TestNG 
+
+1. library file/jar file - 
+2. testNG plugin installed with our eclipse 
+
+https://dl.bintray.com/testng-team/testng-eclipse-release/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
