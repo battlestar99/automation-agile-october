@@ -1,0 +1,26 @@
+www.dol.gov 
+
+gov.dol.testscripts
+gov.dol.pages
+gov.dol.utilities
+
+www.agile1tech.com
+
+com.agile1tech.tests
+com.agile1tech.pages
+
+creating a class - use camel case 
+start with small case - capitalize each word after that
+
+signupTest
+loginValidation
+loginValidationTest
+
+
+
+
+
+
+
+
+

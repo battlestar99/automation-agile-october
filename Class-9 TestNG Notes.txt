@@ -1,0 +1,163 @@
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+id
+name
+xpath - relative
+xpath - relative
+absolute - ////
+
+constructor and page object model 
+
+object driven framework - its must 
+
+page object model - java non runnable - we can store functions 
+
+each webelement - creating one function 
+
+50 webelements - 50 functions 
+
+8 pages to test - 8 page object model class
+
+each page object model class - 
+driver.finelement()
+
+driver is a browser instance - 
+
+webdriver driver=new chromedriver that opens up 
+a browser instance
+
+Test script 
+
+
+
+
+
+testclass tc = new testclass(); 
+
+tc.getelement();
+
+class testclass{
+
+public testclass(webdriver driver){
+
+
+}
+
+
+}
+
+TestNG - Testing library 
+
+java - programming language 
+selenium webdriver - java programming libary - stores of functions 
+TestNG - java programming library 
+
+selenium : 
+
+1. browser interaction - 
+
+
+what selenium can't do 
+test suite, test report, data driven framework, organize our code 
+
+
+why testNG/Junit
+
+1. organizing our test scripts through annotations - done
+2. creating test suite for running multiple tests at the same time - TestNG XML
+3. generate test report - HTML based report 
+4. pass/fail scenerio - assertion 
+5. data driven framework - TestNG xml file 
+
+
+TestNG setup - 
+
+1. TestNG Jar file
+2. Installing the plugin 
+
+no use of main method of java anymore - to run our code
+
+BeforeTest - pre requirement of the test script 
+BeforeMethod
+Test -1 > execution of the tests depends on alphabetical order of 
+the function name and function name is the test name
+AfterMethod 
+BeforeMethod
+Test - 2
+AfterMethod  
+BeforeMethod
+Test - 3 
+AfterMethod 
+AfterTest - post requirement of the test script 
+
+
+BeforeMethod
+AfterMethod 
+
+
+
+
+
+
+
+
+testclass tc = new testclass(); 
+
+int x = 12 ; 
+
+
+int x ; 
+x=12; 
+
+
+testclass tc; 
+tc = new testclass();
+
+
+
+
+1. write a test script 
+
+requirement - user stories 
+
+test case - test script
+how a test case pass or failed? 
+
+comparing expected result with actual result 
+
+expected result - user stories or from the requirement 
+
+actual result - from the test 
+
+expected result and actual result is same > test case passed
+if not same > test case fails > defect in the application > log the defect 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
