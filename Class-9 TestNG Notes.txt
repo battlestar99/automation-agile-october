@@ -4,6 +4,8 @@ What did you do yesterday?
 What will you do today?
 What blockers stand in your way?
 
+
+
 id
 name
 xpath - relative
@@ -65,12 +67,17 @@ what selenium can't do
 test suite, test report, data driven framework, organize our code 
 
 
-why testNG/Junit
+why testNG/Junit - Cucumber 
+
+@BeforeTest
+@Before
+@AfterTest
+@After
 
 1. organizing our test scripts through annotations - done
 2. creating test suite for running multiple tests at the same time - TestNG XML
-3. generate test report - HTML based report 
-4. pass/fail scenerio - assertion 
+3. generate test report - HTML based report - done 
+4. pass/fail scenerio - assertion - done
 5. data driven framework - TestNG xml file 
 
 
@@ -135,6 +142,119 @@ actual result - from the test
 
 expected result and actual result is same > test case passed
 if not same > test case fails > defect in the application > log the defect 
+
+
+
+100 requirements - 10 requirments 
+
+250 test cases - 50 test cases 
+
+130 test scripts - 16 test scripts 
+
+
+
+Assertion compare expected and actual result 
+Constructor 
+
+java main method - java application
+TestNG - TestNG Test 
+cucumber 
+
+page object model - create or use 
+
+
+200 different test scripts - 10 different test scripts
+
+signup - submit - constructor - driver 
+login
+contacus
+checking
+addcartpage
+
+None - 
+1. create an object of the class from which we want to use the function
+2. call the function 
+
+Browser - 
+
+
+Ecommerce - 
+
+user story 1 : specials option should be avialable in the bottom of the
+page and user should be able to navigate page to see the discounted
+products. specials page shoule be set to 
+http://automationpractice.com/index.php?controller=prices-drop
+
+7 more for all the link 
+
+
+user story 2: home page should have women, dresses, t-shirt 3 options 
+available in the top of the page 
+
+user story 3: user can only start creating a new account after providing
+a valid email address, invalid email address should show the message
+"Not Valid". 
+and the page title should be "Login - My Store"
+
+user story 4: register page should have option for 
+firstname
+lastname
+password - password should take at least 10 characters with 
+at least 1 capital case, 1 number, 1 special chracters
+
+
+separating test data from test scripts - data driven framework 
+
+application - 
+code error - 
+defect - assertion failed 
+
+Test suite - 
+regression - 100 test scripts 
+
+integration testing - testing different components, different modules 
+
+unit testing - testing the code - white box testing 
+testing each component seprately 
+
+end-to-end testing - 
+
+functional > web service - rest assured  > database - jdbc library
+
+Test Suite - 5/10 
+
+data driven testing 
+
+XML - extensible markup language 
+Based on Tag 
+
+suite
+test
+classes
+class 
+
+enable
+dependsonMethod 
+
+
+
+
+
+data driven frameowrk 
+
+TestNG xml 
+Excel file 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

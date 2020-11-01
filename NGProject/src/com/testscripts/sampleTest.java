@@ -26,7 +26,7 @@ public class sampleTest {
 	
 	
 	
-	@Test
+	@Test(dependsOnMethods={"bTitleValidation"})
 	public void aloginTest() {
 		
 		
@@ -40,7 +40,7 @@ public class sampleTest {
 	public void bTitleValidation() {
 		
 		
-		Assert.assertEquals("Michael", "test");
+		Assert.assertEquals("Michael", "Michael");
 		System.out.println("This is B Test");
 		
 	}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression Test suite">
+<test name = "Automation Relase 3.5">
+
+<classes> 
+
+<class name="com.testscripts.registrarTest"></class>
+<class name="com.testscripts.sampleTest"></class>
+<class name="com.testscripts.signUpTest"></class>
+<class name="com.testscripts.yahooSignupTest"></class>
+
+
+
+</classes>
+
+
+
+</test>
+</suite>

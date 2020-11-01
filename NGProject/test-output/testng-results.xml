@@ -1,68 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11436" started-at="2020-10-31T17:50:58Z" finished-at="2020-10-31T17:51:10Z">
+  <suite name="Default suite" duration-ms="21" started-at="2020-11-01T18:31:51Z" finished-at="2020-11-01T18:31:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11436" started-at="2020-10-31T17:50:58Z" finished-at="2020-10-31T17:51:10Z">
-      <class name="com.testscripts.yahooSignupTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.testscripts.yahooSignupTest@6b19b79]" name="setupTest" is-config="true" duration-ms="6211" started-at="2020-10-31T13:50:58Z" finished-at="2020-10-31T13:51:05Z">
+    <test name="Default test" duration-ms="21" started-at="2020-11-01T18:31:51Z" finished-at="2020-11-01T18:31:51Z">
+      <class name="com.testscripts.sampleTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="setupTest" is-config="true" duration-ms="7" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="signupValidation()[pri:1, instance:com.testscripts.yahooSignupTest@6b19b79]" name="signupValidation" duration-ms="2198" started-at="2020-10-31T13:51:05Z" finished-at="2020-10-31T13:51:07Z">
+        <test-method status="PASS" signature="setEachTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="setEachTest" is-config="true" duration-ms="1" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupValidation -->
-        <test-method status="FAIL" signature="privacyOptionValidation()[pri:2, instance:com.testscripts.yahooSignupTest@6b19b79]" name="privacyOptionValidation" duration-ms="2187" started-at="2020-10-31T13:51:07Z" finished-at="2020-10-31T13:51:09Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://login.yahoo.com/account/create] but found [https://www.verizonmedia.com/policies/us/en/verizonmedia/privacy/index.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://login.yahoo.com/account/create] but found [https://www.verizonmedia.com/policies/us/en/verizonmedia/privacy/index.html]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.testscripts.yahooSignupTest.privacyOptionValidation(yahooSignupTest.java:86)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- setEachTest -->
+        <test-method status="PASS" signature="bTitleValidation()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="bTitleValidation" duration-ms="4" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- privacyOptionValidation -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.testscripts.yahooSignupTest@6b19b79]" name="endTest" is-config="true" duration-ms="827" started-at="2020-10-31T13:51:09Z" finished-at="2020-10-31T13:51:10Z">
+        </test-method> <!-- bTitleValidation -->
+        <test-method status="PASS" signature="endEachTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="endEachTest" is-config="true" duration-ms="0" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.testscripts.yahooSignupTest -->
+        </test-method> <!-- endEachTest -->
+        <test-method status="PASS" signature="setEachTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="setEachTest" is-config="true" duration-ms="0" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEachTest -->
+        <test-method status="PASS" signature="aloginTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="aloginTest" duration-ms="1" started-at="2020-11-01T13:31:51Z" depends-on-methods="com.testscripts.sampleTest.bTitleValidation" finished-at="2020-11-01T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aloginTest -->
+        <test-method status="PASS" signature="finishTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="finishTest" is-config="true" duration-ms="0" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method status="PASS" signature="endEachTest()[pri:0, instance:com.testscripts.sampleTest@1d082e88]" name="endEachTest" is-config="true" duration-ms="0" started-at="2020-11-01T13:31:51Z" finished-at="2020-11-01T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endEachTest -->
+      </class> <!-- com.testscripts.sampleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

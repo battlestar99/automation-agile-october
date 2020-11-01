@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Smoke Test suite">
+<test name = "Relase 4.0">
+
+<classes> 
+
+<class name="com.testscripts.registrarTest"></class>
+<class name="com.testscripts.yahooSignupTest"></class>
+
+
+
+</classes>
+
+
+
+</test>
+</suite>

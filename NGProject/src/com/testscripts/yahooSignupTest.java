@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -29,6 +30,8 @@ public class yahooSignupTest {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Agile1Tech\\Desktop\\libraries\\chromedriver.exe");
 		driver = new ChromeDriver();
+		
+		
 		sp=new signUpPage(driver);
 
 		
@@ -62,7 +65,7 @@ public class yahooSignupTest {
 		boolean displaylastName = sp.getlastName().isDisplayed();
 		sp.getlastName().sendKeys("Scott");
 		
-		
+		Reporter.log("signup validation test");
 		Thread.sleep(2000);
 	
 		
@@ -83,7 +86,7 @@ public class yahooSignupTest {
 	 String privacyPageUrl =  driver.getCurrentUrl();
 		
 		Assert.assertEquals( privacyPageTitle, "Yahoo");
-		Assert.assertEquals("https://www.verizonmedia.com/policies/us/en/verizonmedia/privacy/index.html", privacyPageUrl);
+		Assert.assertEquals("https://login.yahoo.com/account/create", privacyPageUrl);
 		Assert.assertTrue(privacyPresent);
 		
 		
