@@ -57,6 +57,8 @@ public class signUpTest {
 		Assert.assertEquals( "Login - My Store", title );
 		Assert.assertTrue(x);
 		
+		Assert.assertEquals("Michael", "Michael");
+		
 		
 		
 	}

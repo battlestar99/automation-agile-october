@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Data driven testing" >
+
+
+<test name="Signup Data set - 1">
+<parameter name="firstName" value="bob"/>
+<parameter name="lastName" value="vance"/>
+<parameter name="email" value="bob@gmail.com"/>
+<parameter name="password" value="afadsfdsa"/>
+
+<classes>
+<class name="com.testscripts.registrarTestData"></class>
+</classes>
+</test>
+
+<test name="Signup Data set - 2">
+<parameter name="firstName" value="Michael"/>
+<parameter name="lastName" value="Jordan"/>
+<parameter name="email" value="jordan@gmail.com"/>
+<parameter name="password" value="afadsfdsa++"/>
+
+<classes>
+<class name="com.testscripts.registrarTestData"></class>
+</classes>
+</test>
+
+
+<test name="Signup Data set - 3">
+<parameter name="firstName" value="Jim"/>
+<parameter name="lastName" value="Halpert"/>
+<parameter name="email" value="jim@gmail.com"/>
+<parameter name="password" value="afad65dsa++"/>
+
+<classes>
+<class name="com.testscripts.registrarTestData"></class>
+</classes>
+</test>
+
+<test name="Signup Data set - 4">
+<parameter name="firstName" value="Abdullah"/>
+<parameter name="lastName" value="Hunter"/>
+<parameter name="email" value="hunter@gmail.com"/>
+<parameter name="password" value="afad65dsa++"/>
+
+<classes>
+<class name="com.testscripts.registrarTestData"></class>
+</classes>
+</test>
+
+
+</suite>

@@ -1,0 +1,23 @@
+Java OOP 
+
+class and object 
+class > functions(methods) and properties(global variables)
+object is created from a class 
+objectname.functionname() 
+
+constructor 
+function - parameters(input) - system - return(output) 
+static - class 
+ovarloading ( function constructo) 
+this keyword 
+super keyword 
+inheritance > how one class is related with another class
+overriding 
+interface > interface is not a class 
+abstract class> what is abstract class and how to use them 
+access modifier > public, private, protected, no modifier 
+
+exception and error 
+
+
+

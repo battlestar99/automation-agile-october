@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data driven testing]">
+  <parameter name="firstName" value="Abdullah"/>
+  <parameter name="lastName" value="Hunter"/>
+  <parameter name="password" value="afad65dsa++"/>
+  <parameter name="email" value="hunter@gmail.com"/>
+  <test name="Signup Data set - 1(failed)">
+    <parameter name="firstName" value="bob"/>
+    <parameter name="lastName" value="vance"/>
+    <parameter name="password" value="afadsfdsa"/>
+    <parameter name="email" value="bob@gmail.com"/>
+    <classes>
+      <class name="com.testscripts.registrarTestData">
+        <methods>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="endTest"/>
+          <include name="registrarPageTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.testscripts.registrarTestData -->
+    </classes>
+  </test> <!-- Signup Data set - 1(failed) -->
+  <test name="Signup Data set - 2(failed)">
+    <parameter name="firstName" value="Michael"/>
+    <parameter name="lastName" value="Jordan"/>
+    <parameter name="password" value="afadsfdsa++"/>
+    <parameter name="email" value="jordan@gmail.com"/>
+    <classes>
+      <class name="com.testscripts.registrarTestData">
+        <methods>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="endTest"/>
+          <include name="registrarPageTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.testscripts.registrarTestData -->
+    </classes>
+  </test> <!-- Signup Data set - 2(failed) -->
+  <test name="Signup Data set - 3(failed)">
+    <parameter name="firstName" value="Jim"/>
+    <parameter name="lastName" value="Halpert"/>
+    <parameter name="password" value="afad65dsa++"/>
+    <parameter name="email" value="jim@gmail.com"/>
+    <classes>
+      <class name="com.testscripts.registrarTestData">
+        <methods>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="navigateRegistrarPage"/>
+          <include name="endTest"/>
+          <include name="registrarPageTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.testscripts.registrarTestData -->
+    </classes>
+  </test> <!-- Signup Data set - 3(failed) -->
+</suite> <!-- Failed suite [Data driven testing] -->

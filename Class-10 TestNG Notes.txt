@@ -1,0 +1,335 @@
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+agile-student
+student508
+
+id
+name
+xpath - relative
+xpath - relative
+absolute - ////
+
+constructor and page object model 
+
+object driven framework - its must 
+
+page object model - java non runnable - we can store functions 
+
+each webelement - creating one function 
+
+50 webelements - 50 functions 
+
+8 pages to test - 8 page object model class
+
+each page object model class - 
+driver.finelement()
+
+driver is a browser instance - 
+
+webdriver driver=new chromedriver that opens up 
+a browser instance
+
+Test script 
+
+
+
+
+
+testclass tc = new testclass(); 
+
+tc.getelement();
+
+class testclass{
+
+public testclass(webdriver driver){
+
+
+}
+
+
+}
+
+TestNG - Testing library 
+
+java - programming language 
+selenium webdriver - java programming libary - stores of functions 
+TestNG - java programming library 
+
+selenium : 
+
+1. browser interaction - 
+
+
+what selenium can't do 
+test suite, test report, data driven framework, organize our code 
+
+
+why testNG/Junit - Cucumber 
+
+@BeforeTest
+@Before
+@AfterTest
+@After
+
+1. organizing our test scripts through annotations - done
+2. creating test suite for running multiple tests at the same time - TestNG XML
+3. generate test report - HTML based report - done 
+4. pass/fail scenerio - assertion - done
+5. data driven framework - TestNG xml file 
+
+
+TestNG setup - 
+
+1. TestNG Jar file
+2. Installing the plugin 
+
+no use of main method of java anymore - to run our code
+
+BeforeTest - pre requirement of the test script 
+BeforeMethod
+Test -1 > execution of the tests depends on alphabetical order of 
+the function name and function name is the test name
+AfterMethod 
+BeforeMethod
+Test - 2
+AfterMethod  
+BeforeMethod
+Test - 3 
+AfterMethod 
+AfterTest - post requirement of the test script 
+
+
+BeforeMethod
+AfterMethod 
+
+
+
+
+
+
+
+
+testclass tc = new testclass(); 
+
+int x = 12 ; 
+
+
+int x ; 
+x=12; 
+
+
+testclass tc; 
+tc = new testclass();
+
+
+
+
+1. write a test script 
+
+requirement - user stories 
+
+test case - test script
+how a test case pass or failed? 
+
+comparing expected result with actual result 
+
+expected result - user stories or from the requirement 
+
+actual result - from the test 
+
+expected result and actual result is same > test case passed
+if not same > test case fails > defect in the application > log the defect 
+
+
+
+100 requirements - 10 requirments 
+
+250 test cases - 50 test cases 
+
+130 test scripts - 16 test scripts 
+
+
+
+Assertion compare expected and actual result 
+Constructor 
+
+java main method - java application
+TestNG - TestNG Test 
+cucumber 
+
+page object model - create or use 
+
+
+200 different test scripts - 10 different test scripts
+
+signup - submit - constructor - driver 
+login
+contacus
+checking
+addcartpage
+
+None - 
+1. create an object of the class from which we want to use the function
+2. call the function 
+
+Browser - 
+
+
+Ecommerce - 
+
+user story 1 : specials option should be avialable in the bottom of the
+page and user should be able to navigate page to see the discounted
+products. specials page shoule be set to 
+http://automationpractice.com/index.php?controller=prices-drop
+
+7 more for all the link 
+
+
+user story 2: home page should have women, dresses, t-shirt 3 options 
+available in the top of the page 
+
+user story 3: user can only start creating a new account after providing
+a valid email address, invalid email address should show the message
+"Not Valid". 
+and the page title should be "Login - My Store"
+
+user story 4: register page should have option for 
+firstname
+lastname
+password - password should take at least 10 characters with 
+at least 1 capital case, 1 number, 1 special chracters
+
+
+separating test data from test scripts - data driven framework 
+
+application - 
+code error - 
+defect - assertion failed 
+
+Test suite - 
+regression - 100 test scripts 
+
+integration testing - testing different components, different modules 
+
+unit testing - testing the code - white box testing 
+testing each component seprately 
+
+end-to-end testing - 
+
+functional > web service - rest assured  > database - jdbc library
+
+Test Suite - 5/10 
+
+data driven testing 
+
+XML - extensible markup language 
+Based on Tag 
+
+suite
+test
+classes
+class 
+
+enable
+dependsonMethod 
+
+
+
+
+
+data driven frameowrk 
+
+TestNG xml 
+Excel file 
+
+
+OOP - 
+
+
+
+
+
+
+
+
+assertion - what is assertion
+why it is required 
+how to use that 
+
+test fail vs code fail
+
+test case > execution steps > each step 
+expected result > actual result 
+exp is not equal to actual > test fails > defect > recreate the defect> 
+log the defect > tracking the defect > close the defect 
+
+automated test script> 100 tests > each test is defined by @Test
+30 test scripts = 130 tests 
+
+assertion 
+
+assertEquals(expected result, actual result) 
+Assert.assertEquals("test", "dfasd") > fail
+assertEquals(45,56)
+assertEquals(true,false)
+
+assertionException > test fails 
+
+
+constructor
+
+public static void go(){
+}
+Data driven framework using TestNG > 
+
+Frameworks: 
+
+object driven > page object model
+data driven > TestNG XML 
+seperating test data from test script 
+test data > TestNG xml, apche poi - excel, cucumber data table
+database - jdbc 
+
+Test suite 
+
+<class name=packagename.classanem
+
+agile1tech.com 
+
+com.agile1tech.test
+com.agile1tech.pages
+com.agaile1tech.uitlites 
+
+dol.gov
+
+gov.dol.laborcerti.test
+gov.dol.laborcerti.pages 
+gov.dol.laborcerti.utilites 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
