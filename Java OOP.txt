@@ -21,3 +21,176 @@ exception and error
 
 
 
+
+paradigm - 
+
+procedural - non runnable class is regarded as a storage of functions
+
+object oriented programming - object is the implementation of a 
+design or a class 
+
+class > non runnable class 
+
+class > design or prototype 
+
+attributes > what it has> data or value > global varaibles, properties
+action > what it can do > functions or method 
+
+car class > 
+attribute - action 
+color, price, numberofdoors, gpsenable, typeofseat, > attribute 
+driverfoward, driverback, acceleerate > action 
+
+object is the real car 
+
+properties , functions 
+
+
+
+
+
+facebook
+twitter
+bankofamerica
+dmvonline portal 
+
+
+facebook > 
+attributes > name, email, password, gender, phone
+action > post, chat, edittext, 
+
+global veriable are the properties of the object 
+
+select dd = new select(webelement)
+
+scanner sc = new scanner(sytem.in)
+
+
+webdriver driver = new chormedriver()
+
+driver.get()
+driver.opengooglechrome()
+
+Nothing works outside the project > whatever the access modifer 
+does inside the project 
+
+public - inside the package and outside the package, inside>outside the class
+private - can only be used inside the class> no usuage in inside or outside
+the package
+protected - only inside the package 
+no modifier - is same as protected - only inside the package 
+
+ 
+
+class and object
+class > functions and properties 
+
+public void go(){}
+
+public String firstname; 
+
+
+How to make relationship between classes for designing a system? 
+
+inheritance > properties and functions 
+parent > child / parent class , child class
+
+sub class/child class gets all the properties and functions from super class
+super class/parent class doesnt get anything from sub class 
+
+bankaccount> checkingaccount> checkingaccountVA
+
+
+super class and sub class, 
+
+method overriding > if you have same function in parent and child class
+child class object must have to use the function from child class
+
+
+abstract class > can not create an object of that class
+how you are going to use functions from that class
+
+bankaccount abstrac class > checking account > checingaccountVA
+
+checkingaccount object can use the function from the bankaccount
+
+
+interface - is not class 
+interface is a class design enforcement > 
+in interface no function is implementable 
+
+
+
+abstract class
+
+
+
+
+
+
+
+
+4 key features of OOP > 
+
+abstraction > abstract class
+car abstract > go, car c=new car()
+subclass sedan > sedan s =new sedan()
+s.go
+encapsulation> properties and functions in the same class
+private 
+inheritance > super class .. sub class,, properties and function 
+polymorphism > 
+go()
+go(int x)
+
+car > sedan 
+
+sedan s = new sedan(); 
+
+s is a sedan
+s is a car
+
+inheritance > 
+parent class > child class
+
+10 web pages 
+
+all these web pages > 30 web elements available in each of the
+page > 
+
+10 page object model > 30 functions for each web pages 
+
+selenium/TestNG/cucumber
+
+programming library > 
+
+interface
+
+static > assert
+overloading> assert()
+webdriver driver=new chromdriver()> interface 
+global variable / properties - you can use them inside the function 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

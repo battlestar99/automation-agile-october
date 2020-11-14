@@ -1,0 +1,51 @@
+BDD > behavior driven development 
+
+BDD testing > testing the behvior of the application 
+
+TDD > test driven development > write test case before you start
+development 
+ATDD > acceptance test driven development > UAT phase, it has to pass
+acceptance criterion > test cases before the development
+
+BDD > 
+manual testing > test cases as plain english lanugage 
+automation testing > test script as programming languaga that only
+programmers understand 
+
+BDD > manual test case+ automated test scripts 
+
+
+BDD > cucumber, jbehave, specflow, eggplant 
+
+Setting up : 
+
+1. plugin for eclipse
+
+in eclipse
+Help>eclipse market place > search for cucumber
+install cucumber eclipse plugin 
+
+2. set of jar files - cucumber 10/11 jar files 
+
+cobertura-2.1.1
+cucumber-core-1.2.4
+cucumber-html-0.2.6
+cucumber-java-1.2.4
+cucumber-junit-1.2.4
+cucumber-jvm-deps-1.0.5
+cucumber-reporting-2.7.0
+cucumber-testng-1.2.4
+gherkin-2.12.2
+junit-4.12
+mockito-all-1.9.1-20110911
+
+selenium java
+selenium server standalon
+tesng 
+
+
+
+
+
+
+
