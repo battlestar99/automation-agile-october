@@ -42,6 +42,149 @@ mockito-all-1.9.1-20110911
 selenium java
 selenium server standalon
 tesng 
+Daily Stand up
+
+What did you do yesterday?
+What will you do today?
+What blockers stand in your way?
+
+
+Test Plan vs Test Strategy > 
+
+Test Stragey - highest level doc for testing > QA mansters, CTO
+Test plan - a doc after test strategy > qa leads, senior QA> 5+ 
+test plans
+Release plan > test plan 
+Test case - a doc after test plan > validate specific requirements 
+
+Git vs github > git is the technolgy
+Git is the version control software 
+git commit -m "something"
+git push origin master
+github is code repository > 
+
+functions > 
+
+public int go(int x, int y){
+
+
+
+}
+
+
+input > sytem > output 
+input, argument/parmeter - integer
+output, return - no return / no output
+sytem, function definition - whatever code 
+ we are writing inside the function
+
+
+
+
+
+
+
+cucumber plugin - cucumber editor 
+
+ecilpse + updated jdk > 
+
+eclipse version 2019-6 + jdk 8 / 1.8
+
+updated jdk + most updated eclipse > cucumber plugin 
+
+
+Cucumber - BDD 
+
+manual test case > qa, bA, developers, managers 
+automation script > automation tester understands 
+
+testing the behaviour of the application - 
+
+manual test case - feature file - gherkin keywords to write the features
+automated test case - step definition - java 
+
+1 scenario > 1 test case 
+
+test runner - generating report, generating test suite
+
+@BeforeTest
+public void setupTest(){
+
+}
+
+feature - given when and then but 
+
+step def - @Given @When @Then
+
+given when and then but 
+
+given the prerequisite - we need to be in the homepage
+when - action we are doing 
+And
+Then - the application behaviour based on the action 
+And 
+
+and - multiple when or then 
+
+but - negative result but 
+
+
+
+
+
+java - selenium > web interaction 
+
+test report, test suite 
+
+TestNG > 
+Cucumber> 
+
+
+buy or lease a car 
+
+
+java-selenium
+
+open the webpage
+click on buy car
+you have to seach foryour car
+you have click on check eliginbility
+fill out the eligibility form 
+click on submit
+get a response 
+
+@BeforeTest
+void setuptest(){
+
+open the webpage
+}
+
+@Test
+void maintest(){
+click on buy car
+you have to seach foryour car
+you have click on check eliginbility
+fill out the eligibility form 
+click on submit
+get a response 
+}
+
+
+cucumber - feature 
+Given user is on the car buying page
+when user click on buy
+and user submit the eligbilit
+
+
+
+
+
+
+
+
+
+
+
 
 
 
