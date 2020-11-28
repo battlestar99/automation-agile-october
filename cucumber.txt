@@ -176,6 +176,68 @@ when user click on buy
 and user submit the eligbilit
 
 
+Cucumber - BDD 
+
+Feature - one or multiple scenarios - gherkin keywords
+given when and then but feature scenerio background example 
+file > name.feature
+if you have any cucumber plugin installed - template 
+
+jdk - 8 > eclipse 2019-6> cucumber plugin 
+
+1. we can only run feature file , can not run the stepdefinion of java file
+2. the test depends on the sequence of how the scenario is sequenced
+, it doesnt depend at all on the step def 
+3. we can use same step multiple times, but we can not implement
+same step multiple time 
+
+feature - scenario - test steps - background 
+step def - java file - glue code
+
+how to do data driven testing in cucumber? 
+
+one set of data passed from feature file > 
+any amount of sets of data passed from feature file > 
+
+data driven - seperating test data from step definition file 
+by creating data table 
+
+object driven - seperating web elements from test scripts(step def) file
+
+how to create a test suite and how to generate test report 
+
+tags - tags are used to run specific scenario from the test runner 
+
+20 feature file - 
+
+want to do something before each feature 
+want to do something after each feature 
+
+hooks
+
+@Before
+@After
+
+tagged hooks - 
+
+ghekin keywords - 
+feature
+scneario 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

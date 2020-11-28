@@ -1,6 +1,8 @@
 #Author: anik@agile1tech.com
 Feature: Links in the footer of the homepage
 
+
+@smoke
   Scenario: validating the link navigation
     
     
