@@ -1,0 +1,163 @@
+Web Service testing note 
+
+UI/web/GUI Testing > functional testing ..black box testing 
+web service - API 
+database - sql .. backend testing 
+
+static data - created in HTML 
+dynamic data - database > sql queri
+
+CRUD - create read update delete 
+
+Rest API > 
+SOAP API > 
+API > application programming interface 
+
+get > read 
+post> create
+put > updating
+delete > deleting 
+
+URL >> uniform resource locator 
+https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc
+
+URI 
+
+all URI are urls 
+but not all urls are uri 
+
+URI - uniform resource identification - dynamic data 
+URL > dynamic data + static data 
+
+postman and soap UI >> web service client 
+Rest API >> 
+
+send request
+recive response 
+
+what we do when we are going to test > 
+after sending the request > what response we are getting 
+
+request >> 
+
+CRUD - create read update delete
+http functions > get post put delete 
+
+Google > google map api
+authentication > 
+
+get
+post
+put 
+delete 
+
+https://reqres.in/api/users?page=2 >> URI
+
+all URI are also URL 
+all URL is not URI 
+
+URI >> if it requests a dynamic data 
+
+https://reqres.in/ >> domain name
+api/users?page=2  >> end point 
+api/users?>> path parameter 
+page=2 >> query paramater 
+
+get https://reqres.in/api/users?page=2
+
+
+response >> response body, response code, response time 
+
+response body > json xml 
+response code - http code 200, 400, 401 
+json - javascript object notation
+xml - extensible marup lanuage 
+
+https://amazon.com/api/products?products="selenium books"
+https://amazon.com/api/users?email="john@gmail.com"
+
+https://amazon.com/api/users?category=5
+
+postman
+soap ui 
+
+free>> 5 people 
+professional - share all your request with other team members
+
+java script code - 
+
+_------------------------------------------------------------------------
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+
+var response=JSON.parse(responseBody);
+
+tests["Verifying Page No"]= response.page==2;
+
+tests["Validatating respone body text"]= responseBody.has("anik@reqres.in");
+
+
+---------------------------------------------------------------------------
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+var response=JSON.parse(responseBody);
+
+tests["Verifying first name"]= response.data.first_name=="Janet";
+
+-----------------------------------------------------------------------------------------
+
+var response = JSON.parse(responseBody);
+tests["name"] = response.name == "morpheus";
+tests["job"] = response.job == "leader";
+tests["Validating Status Code"] = responseCode.code == 201;
+
+
+-----------------------------------------------------------------------------------------------------
+
+var response=JSON.parse(responseBody);
+
+tests["Verifying The success"]= response.status=="success";
+
+---------------------------------------------------------------------------------------
+
+var response=JSON.parse(responseBody);
+
+tests["Record update"]= response.message=="Successfully! Record has been deleted";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
