@@ -351,6 +351,21 @@ local repository - connected with the remote repository
 initialiaze a git repo
 
 
+git command 
+
+git init
+
+git status
+
+git add * 
+
+git commit -m "message"
+
+git push -u origin master
+
+git clone projectUrl 
+
+
 
 
 
