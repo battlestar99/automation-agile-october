@@ -1,0 +1,370 @@
+Automation Testing - 
+
+important topics that you need to know: 
+
+experience in automation testing > 
+
+
+data driven testing - data table, testng xml, apache poi 
+
+java- selenium(UI),rest assured(API), jdbc(database) - testng
+(annotations,sequence, dependsonmthod, test suite - testng xml, 
+generate report -html report, data driven - testng xml) 
+
+java-selenium- cucumber - feature, step defition, test runner - 
+test suite+ test report, data table-data driven testing 
+
+test case - manual 
+test scripts - automation 
+
+test scripts - 
+user story 
+
+when we should run regression test scripts? 
+
+what is a build? 
+code build >> 
+
+
+3 months - release - updated version of the software in every 3 months
+
+1 month release- 2 months relase - 1 week release 
+
+release >> 
+
+1. new funtionalities 
+2. improved functionalities - coding 
+3. previous bug fix 
+
+december 5th - version 10 
+
+March 6th - version 11 
+
+client > acceptance criterion 
+
+10 new requirments - 7 new requirments 
+old 5 other requirments - 
+
+
+1. new funtionalities 
+2. improved functionalities - coding 
+3. previous bug fix 
+
+backlogs - stories 
+3 months - 9 person teams 
+4 developers 
+3 testers - 1 automation tester 
+1 BA 
+1 scrum master
+
+agile-scrum - 2 weeks sprints - 6 sprints 
+
+sprint 1 >> backlogs - sprint planning, sprint review, sprint retropective
+
+writing test case - understand requirments, manual test case, automation
+test case , modify test case 
+executing - manual / automation script 
+defect - log the defect - devs will work on that 
+when defect fixed - retest and close the defect 
+
+500 test cases 
+new funtionalities testing - smoke testing - 15 test cases 
+testing the critical funtionalities - sanity testing - 50 test cases 
+regression testing - 500/2000 + 15 >> 515 -- automated testing 
+dev env - test env - staging (UAT environement) - prod ( released version
+end-user has access to it) 
+
+UAT testing - clients team - acceptance criterion 
+
+staging environment - 
+production environment 
+
+team related - meetings, discuss, disagreemtn ( dev, scrum master
+manger), clients meeting 
+testing - test case, execute, defect, log defect, re test, smoke
+sanity, regression, release 
+automation - test scripts, manage, share, trouble shoot, 
+
+
+managing code - responsibilities of automation tester
+
+java project - 
+
+jdk+ eclipse (plugins TestNG/Cucumber) + jar files 
+
+key points 
+1. local machine 
+problem : how you are going to share the code 
+
+2. execute the test scripts - local machine 
+run code in your local machine - 
+if other pm or team lead wants to run automation test scripts 
+how they can do it 
+
+3. multiple automation tester - how to share code with othe 
+testers 
+
+4. provide the code to the company - 
+
+build the code - comiling all the codes - making sure there is no
+errors in building 
+
+developers are building all the code after every new addition 
+
+code base - build all the codes -when the build will be successful
+without any error - then new code will be deployed to a server
+
+push the code to a code repositoy - then it will be deployed to a server
+
+CI/CD process - conteneous integration + contineous development 
+
+jenkins - CI/CD
+
+124.123
+
+
+
+
+java-selenium- testng
+
+pacakge testscripts - agile1tech.com
+com.agile1tech.tests.signup
+com.agile1tech.tests.checkout
+package page object model
+com.agile1tech.tests.pages 
+package utility classes
+testng xml - suite, data driven, reporting 
+
+java-selenium-cucumber
+
+folder features
+package step defiiontion
+pacakge page object model
+package test runner - junit - test suite + generating 
+
+
+devops - development and operation 
+
+maven - 
+git/github - 
+jenkins - 
+
+
+
+
+sprint 6 .....release the new version 
+
+new functionality-smoke
+critical functionality-sanity
+all functionality-regression
+
+dependence of the project - libraries 
+
+1. the whole project should use the same version of all the libraries 
+2. we need a way to import the project to eclipse with all libraries and codes
+
+if we are using java project
+anyone can download any version libraries
+there is no way that we can import java project with everything
+
+Build management system - maven, gradle, ant 
+
+signup.java >> compile >> signup.class>> output 
+
+compiling part - building the code 
+run the code - 
+
+tester - use maven project 
+
+1. they have existing code >> 
+jdk+ eclipse (testng/cucumber)
+
+access to the github repository
+download the maven project 
+import the project in your eclipse
+start working on the project 
+
+
+
+
+2. there is no code >> 
+
+jdk+ eclipse(plugin)
+
+create maven project
+start writing code in the project
+ask devopss to create a repository for your project
+push the project to the repository 
+
+POM file is known as - Project object model 
+
+
+
+
+
+
+
+
+
+Devops - code share and code management 
+
+build management - maven , gradle, ant
+
+version control - git/ github, svn, bitbucket 
+
+ci/cd - jenkins, bamboo, aws, azure 
+
+responsibility of an automation tester : 
+
+1. new project - automation
+jdk+ eclipse 
+create a new maven project, configure the maven project
+start writing code 
+
+devops- create a repository and then you can push the code
+
+2. the project is already exists - 
+jdk+ eclipse
+clone or download the project from github
+import the project to you eclipse and start working on that
+
+maven - 
+no need to install maven seperately
+ if you want to run maven from your command line
+how to execute test scripts? 
+
+java project / maven project 
+
+TestNG - 
+test script - TestNG Test
+TestNG xml - run it as TestSuite
+generating report - index.html, 
+
+Cucumber - 
+run as feature - single feature 
+Testrunner - run the test runner - 
+generating report - index.html 
+
+
+maven has two types of repository system 
+
+local repository - .m2 
+remote repository/central repository - 
+cenral reporitory - the core maven repository- offical maven respostiry
+remote repository - anthem, - maven repository 
+
+dependency you have 
+
+reason for using build managment - maven 
+
+1. dependency management - libraries - jar file
+2. setting up CI/CD - jenkins
+3. maven project is importable 
+
+ci/cd - jenkins 
+
+1. running test from a remote server 
+
+what are the maven commands, why we need them, and why we run
+them? 
+
+maven build >> composite command 
+clean install test
+
+maven clean - cleaning all the files create after running maven test
+
+maven install - make sure all the necessary jar files are download
+and ready to use 
+
+maven test - run the code - execute the code 
+src/test/java
+
+maven generate-source
+create jar or war file for the project
+
+need two plugins to work properly
+
+maven-compiler-plugin - required to compile any code in java
+
+mave-surefire-plugin - required to run specific test suite 
+
+how do you run a test suite from maven? 
+
+maven test 
+
+setup the suite xml plugin and specify which file or files 
+you want to run - 
+
+ <suiteXmlFile>regression.java</suiteXmlFile>
+
+
+eclipse > edit 
+
+jdk 
+
+javac home.java
+maven test
+mvn clean
+
+
+
+code management - code share
+
+maven - pom.xml 
+jenkins - code repository - git 
+
+version control - 
+version 1
+version 2 
+version 3 - last vesion of the code in your local machine
+
+
+github
+bitbucket
+gitlab
+version- 1 
+
+commit - 2 - difference bewtween commit 1 and 2 
+
+commit 3 - differentce betwee commit 2 and 3 
+
+commit 4 - 3 and 4 
+
+5 - 4 and 5 
+
+git - version control 
+
+git gui - git graphical user interface
+git bash - common comand - linux command 
+git cmd - git using command for windows command 
+
+git bash - 
+
+git - you can make a folder and track everything that is happening 
+inside the folder 
+
+local computer - 
+
+local repository - connected with the remote repository
+
+
+initialiaze a git repo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
