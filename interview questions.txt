@@ -1,0 +1,206 @@
+Interview preparetion Discussion 
+
+To-discuss
+
+method overriding 
+constructor overloading
+interface 
+abstract class 
+maven repository -  
+git/github integration 
+
+combination 
+
+full stack tester 
+manual testing (software testing process) + automation testing(java
+selenium + cucumber+ testng) + web service testing + backend testing
+SQL + mobile testing + performance testing + security testing + 
+508 testing 
+
+combination 1 
+
+manual + automation + web service + sql 
+
+combination 2
+
+manual + web service + sql 
+
+combination 3 
+
+manual + automation ( 30 perecent) + web service + sql 
+
+1. want to be able to do specific work 
+2. communcation is clear with them
+3. find your own way 
+
+software testing process - 
+
+getting an offer today - 2 weeks
+4 more weeks - 
+4-6 weeks 
+
+
+any postion if you get an interview go for that
+out of state - 
+
+listen, don't talk 
+
+prepare - accrodingly 
+
+cheat sheet - 
+
+skills - 
+agile-scrum, test case, defect tracking, jira, alm,qc, sql, postman
+
+automation
+
+java, maven, selenium, cucumber, testng 
+
+agile--scrum
+2 weeks sprint, spring planning, sprint review, release planning
+10 team members
+4 dev, 4 testers, 1 ba, 1 scrum master-tester 
+
+
+
+Starting testing ..... continue ..... ending 
+
+core process of test case writing and defect tracking 
+
+step 1: getting the requirement and analyze, get access to the application
+where, anazlyze, who, confusion, form, requirement chaning in the middle
+of the sprint, accomodate with the requirment change
+
+step 2: write test case 
+find out what they have, template, share, compoenents of a test case
+review meeting of test case, 
+
+step 3: executing test case 
+how, whole team is executing the test case, what do you after executing
+the test case, pass, how many people are writing test case 
+zephry-, ms word, google drive, tfs 
+tecebility matrix, how often you execute test case
+schedule basis, 
+builds - 
+test1 , test2 - regression, staging environment 
+steps of any test case - ideal number of steps 
+integration testing - 
+end-to-end testing 
+
+step 4: defect - log the defect - test case failed
+reproduce, log the defect - how, assign, fixed-retest, tester
+
+team - how your team managed 
+
+agile-scrum 
+meetings - sprint planning, review, retrospective, daily stand up
+backlogs - stories - estimation is done 
+sprint - 2 weeks - 2 months release - 4 sprint
+2 weeks - estimated - 
+sprint planning - 15 backlogs - estimate 
+standard : 1 story point for 1 day of work for 1 person 
+story point - 
+back log 1: 4 story points 
+1 person's 4 day of work
+4 person's 1 day of work
+2 person's 2 day of work 
+
+8 story point - 
+sub task - close the subtask 
+who write the backlog or stories, who closes the backlogs, 
+scrum master, project owner , business analyst
+
+developer lead - software architect 
+qa manager - backlogs qa people 
+
+release - 2 months - backlogs 
+sprint planning - 4 story points 
+finish your work - 
+scrum master - 
+disagreement - developer, manager
+
+user stories- 10 user stories
+
+release - release -  
+
+integration - checkout - 10 test cases
+cart - 5 test cases 
+
+integration test suite - you add specific test cases - write test suite 
+whatever test case testing any dependency on one module to another
+those are integration testing 
+
+12- 15 steps 
+
+top-down>>
+bottom - up >> 
+
+
+
+end-to-end >> UI (functional) + web service + Backend 
+
+api - ecilpse java cucumber - rest assured, http client 
+postman, soap ui 
+
+60 percent questions - 
+
+
+cheat sheet 
+
+
+tell me about yourself >> 
+skills- experience - 5+ years, 3 project 
+manual and automation testing, selenium, java, cucumber, testng, 
+agile-scrum, defect tracking, postman, database 
+
+automation testing experiece 
+setup- jdk_eclipse+ testng, cucumber, maven
+git/github - manage and share code
+jenkins - ci/cd pipeline 
+
+selenium- 
+page object model,object drien, xpath, css, id, name
+
+cucumber
+feature, step def, gherkin, data table
+
+test suite 
+testng xml, cucumber test runner, report - index.html, target. output
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

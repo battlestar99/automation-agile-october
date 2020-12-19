@@ -1,0 +1,190 @@
+Automation Testing >> 
+
+java - programming - basic, OOP
+
+selenuim - testing web based application - how to find web elemtns
+
+testing framework - TestNG, cucumber - 
+
+Test management - maven, git/github, jenkins 
+
+tell me about your automation testing framework? 
+maven- build managment, pom.xml - local machine 
+github, bitbucket, - git commands - 
+version control - commit 
+share - pushing the code 
+update - pull 
+download first time - clone 
+
+clone the code local machine - import in the eclipse - work on it - 
+push the code 
+
+how you are running test? 
+local machine / server 
+
+test suite - XML , index.html 
+junit test runner, index.html 
+
+test summary report - every sprint - word file - templage
+number of test cases run 
+period october 1st oc
+
+
+backlogs - stories 
+
+scrum master - edit or modify the story point
+4 story point - 1 person nees 4 days to finish of 
+
+1 person's 1 day work - 1 story poing 
+2 weeks sprint - 15
+
+
+
+how do you share reports in within your team? 
+
+how do you run your code? how to run automated test scripts, 
+local/server, resluts are generalted, results are shared- test summary
+ 
+find a defects what you do, production, how do you decide 
+what to automate, which is script you are going to work
+
+backlogs - task 
+user stories - 
+
+smoke - after new built 
+
+less automation testing >> feature , gherkin keywords
+
+test1, test2, staging - production 
+
+3 kinds of thing
+defect fix
+new functionalities - smoke
+modified functionalites 
+
+
+new build 
+new build - 
+
+100 lines of codes - 30 lines of 
+
+500 test cases - 
+sanity testing - 50 test cases
+
+automation tester - writing code, running code 
+manual tester - requirment analyiss, test case creationg, exeuctiong
+defect cycle, test summary report, trackibility 
+web service
+backend 
+
+team memebrs - 9 
+sprint time - 1 week
+release time - 1 month
+responsibilites - 
+
+UAT testing/508 testing/mobile testing 
+
+
+release planing - 
+2 months - 
+
+requirement changes 
+
+user stories - 
+
+
+challanges you faced in your rect projects - 
+requirement changes >> 
+technical challange >> finding web elements, framework creation 
+from scratch, code is failing
+
+project -- login panel, you have to send a pin code to the phone 
+google phone number, read the pin code from email , enter it in the login
+panel 
+
+manual tester - enough requirement docs, based on the application
+understanding what to automate ,
+development team and testing team is different lack of communications
+
+
+
+tell something that you did out of box that helped the team in recent
+project - 
+
+login panel - government 
+
+data 
+repeation 
+
+
+
+framework - 
+
+maven project - pom.xml 
+testng - test scripts, page object model, testng xml, utility classes
+page object model - object driven framework
+xml file - data driven framework 
+
+automation testing - 
+
+present work - future 
+
+web application - domain knowledge 
+
+web based - 
+
+software 
+hardware 
+
+unit - basic unit of the application
+integration - multiple unit - testin muliple module 
+system testing - aginst different system - chorme, mozile, differenrt version
+
+uat testing - user acceptacne 
+
+system integration - 
+
+staging environment - production 
+
+job search process - 2-3 months 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
